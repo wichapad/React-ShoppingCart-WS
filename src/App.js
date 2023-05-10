@@ -1,10 +1,15 @@
+import "./App.css";
+import Header from "./Components/Header";
+import Cart from "./Components/Cart";
 
-import './App.css';
+
 
 function App() {
+  
   return (
     <div className="App">
-      
+      <Header />
+      <Cart/>
     </div>
   );
 }
